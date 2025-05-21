@@ -3,8 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/sistema-controle-estoque/',
+  base: '/controleestoque/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
 });
+
+
